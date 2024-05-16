@@ -4,44 +4,46 @@
 ul{ list-style: none;}
 a{text-decoration: none; color: #000;}
 
-.main{
-    width: 1200px;
-    height: 800px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.main h2 {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    
-}
-
-
-
 .hidden{
     display: none;
 }
 
-#quote{
-    margin-top: 20px;
+#clock{
+    text-align: end;
+    margin: 20px;
 }
 
-#quote span:first-child{
-    font-size: 20px;
-}
-
-#quote span:last-child{
-    margin-top: 20px;
-    display: block;
+.main{
+    width: 1200px;
+    padding-top:300px;
+    margin: 0 auto;
     text-align: center;
 }
 
+.main form input{
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+}
 
+.main form input:first-child{
+    margin-bottom: 20px;
+}
+
+.desc{
+    text-align: center;
+}
+
+.desc #quote{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.desc #weather{
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
 img {
     position:absolute;
